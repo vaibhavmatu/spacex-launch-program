@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import axios from "./Utility/axios-instance";
 import "./App.css";
 
