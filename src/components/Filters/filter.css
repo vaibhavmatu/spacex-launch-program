@@ -1,0 +1,64 @@
+.filterSections {
+  min-width: 180px;
+  max-width: 200px;
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  height: fit-content;
+  margin: 0 10px 0 20px;
+  border-radius: 5px;
+}
+
+.filter {
+  margin-bottom: 30px;
+}
+
+.filterLabel {
+  font-weight: bold;
+  display: block;
+  font-size: 1.17em;
+}
+
+.filter .options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.filter .options div {
+  width: 50%;
+  text-align: center;
+  padding: 3px 6px;
+  box-sizing: border-box;
+}
+.options div span {
+  background: #c5e09a;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.options div span:hover {
+  background: #c0d5a1;
+}
+
+.options div span.active {
+  background: #7aba02;
+}
+
+.filterSections .filter label {
+  border-bottom: 2px solid #bdbdbd;
+  text-align: center;
+  padding-bottom: 5px;
+  display: block;
+  margin: 10px;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .filterSections {
+    max-width: 80%;
+    margin-left: 30px !important;
+  }
+}
